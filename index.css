@@ -1,0 +1,32 @@
+body{
+    text-size-adjust: 50px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin: auto;
+    /*background-color: #c4bdeb;*/
+}
+
+.container{
+    display: grid;
+    
+    gap:10px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr) ;
+}
+
+.column{
+    width: 60px;
+    height: 60px;
+    background-color: #DDDDDD;
+    margin-right: 15px;
+    float: left;
+    border-radius: 5px;
+    padding: 5px;
+}

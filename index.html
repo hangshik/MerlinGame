@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js"></script>
+        <title>멀린게임</title>
+    </head>
+    <body>
+        <center>
+        <font size=6px>행(row) : <input type="number" id="txt1" value="3" max="10" style="font-size:30px;width:80px;text-align:center">
+        , 열(col) : <input type="number" id="txt2" value="3" max="10" style="font-size:30px;width:80px;text-align:center">
+        <button onclick="main(txt1.value, txt2.value)" style="font-size:30px"> 시작 </button></font>
+        </center>
+        <hr/>
+        <div id="area" style="font-size:30px"></div><br>
+        <div id="result" style="font-size:30px">Turn : 0</div>
+    </body>
+</html>
