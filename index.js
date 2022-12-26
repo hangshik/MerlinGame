@@ -1,5 +1,3 @@
-
-
 function bg(bl) {
   if (list[bl]===0){
     document.getElementById(bl).style.backgroundColor="#dddddd";
@@ -10,17 +8,6 @@ function bg(bl) {
 
 let count = 1;
 
-/*
-function lastcolor(){
-  for(i=0;i<b1*b2;i++){
-    setTimeout(()=>{
-    list[i]=(list[i]+1)%2;
-    bg(i);
-  },100);
-  }
-}
-*/
-
 function success(){
   let re = document.getElementById("result");
   const average = list.reduce((a,c)=>a+c)/list.length;
@@ -30,7 +17,6 @@ function success(){
   } else {
     re.textContent = "Turn : "+count;
     count++;
-    
   }
 }
 
