@@ -12,13 +12,11 @@ div {
 
 .container{
     display: grid;
-    
     gap:10px;
 }
 
 .row{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr) ;
+    float: left;
 }
 
 .column{
