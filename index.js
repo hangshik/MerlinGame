@@ -17,6 +17,7 @@ function success(){
   } else {
     re.textContent = "Turn : "+count;
     count++;
+    all_bg();
   }
 }
 
