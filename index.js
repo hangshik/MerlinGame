@@ -7,6 +7,7 @@ function bg(bl) {
 }
 
 let count = 1;
+let wincount = 0;
 
 function success(){
   let re = document.getElementById("result");
@@ -14,6 +15,8 @@ function success(){
   if(average==0 || average==1){
     re.textContent =count+"번째 성공하였습니다."
     count=1;
+    wincount++;
+    win.textContent = "성공횟수 : "+wincount;
   } else {
     re.textContent = "Turn : "+count;
     count++;
