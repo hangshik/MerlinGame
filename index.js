@@ -16,7 +16,7 @@ function success(){
     re.textContent =count+"번째 성공하였습니다."
     count=1;
     wincount++;
-    win.textContent = "성공횟수 : "+wincount;
+    win.textContent = "성공횟수 : test "+wincount;
   } else {
     re.textContent = "Turn : "+count;
     count++;
