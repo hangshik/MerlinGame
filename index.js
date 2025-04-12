@@ -1,3 +1,8 @@
+// 마우스 오른쪽 버튼 클릭 금지
+document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+});
+
 function bg(bl) {
   if (list[bl]===0){
     document.getElementById(bl).style.backgroundColor="#dddddd";

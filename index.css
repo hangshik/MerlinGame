@@ -27,4 +27,7 @@ div {
     float: left;
     border-radius: 5px;
     padding: 5px;
+
+    /*마우스 드래그 금지*/
+    user-select: none
 }
